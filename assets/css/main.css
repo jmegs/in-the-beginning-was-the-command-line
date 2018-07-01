@@ -136,6 +136,10 @@ pre {
   & li:not(:last-child) {
     margin-right: 0.5rem;
   }
+
+  @media (min-width: 960px) {
+    margin: 0;
+  }
 }
 .toast-active {
   transform: translateY(0);
