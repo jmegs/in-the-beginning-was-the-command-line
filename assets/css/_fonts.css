@@ -3,3 +3,15 @@
   src: url('/fonts/Syne-Extra.woff2') format('woff2'),
     url('/fonts/Syne-Extra.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Term';
+  src: url('/fonts/terminus.woff2') format('woff2'),
+    url('/fonts/terminus.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CMU Serif';
+  src: url('/fonts/computer-modern.woff2') format('woff2'),
+    url('/fonts/computer-modern.woff') format('woff');
+}

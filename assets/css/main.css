@@ -1,8 +1,10 @@
 @import '_fonts.css';
 
 html {
-  font-size: 20px;
   box-sizing: border-box;
+  @media (min-width: 960px) {
+    font-size: 125%;
+  }
 }
 
 *,
@@ -11,41 +13,81 @@ html {
   box-sizing: inherit;
 }
 
-pre,
-code {
-  background: black;
-  color: white;
-  width: 100%;
-  display: inline-block;
-}
-
-code {
-  padding: 0.707rem 1rem;
-}
-
-pre {
-  padding: 1rem;
-  white-space: pre-wrap;
-  font-size: 0.707rem;
-}
-
 body {
-  margin: 5vw;
-  color: #0d0d0d;
-  font-family: 'Source Serif Pro';
+  margin: 0;
+  padding: 2vmax;
+  color: #222;
+  background: #fefefe;
+  font-family: 'CMU Serif', Baskerville, Times, serif;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+article {
+  max-width: 40em;
+  margin: auto;
+}
+
+.text {
+  margin-top: 3rem;
+}
+
+p {
+  margin: 1rem auto;
 }
 
 h1,
 h2 {
   font-family: 'Syne';
+  line-height: 1.25;
+  color: #0d0d0d;
 }
 
 h1 {
-  font-size: 2.827rem;
+  font-size: 1.999rem;
+  @media (min-width: 960px) {
+    font-size: 3.998rem;
+  }
 }
 
 h2 {
   font-size: 1.414rem;
+  @media (min-width: 960px) {
+    font-size: 1.999rem;
+  }
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: 80%;
+}
+
+h3 {
+  font-weight: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+pre,
+code {
+  background-color: #111;
+  padding: 0.707rem;
+  color: #f2f2f2;
+  display: block;
+  font-family: 'Term', monospace;
+  white-space: pre-wrap;
+}
+
+code {
+  border-radius: 0.5rem;
+  margin: 1.5rem auto;
+}
+
+pre {
+  border-radius: 1rem;
+  font-size: 0.707rem;
+  margin: 3rem auto 4.5rem auto;
 }
