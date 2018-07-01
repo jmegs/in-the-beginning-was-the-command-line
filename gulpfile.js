@@ -106,7 +106,7 @@ function watch() {
   browserSync.init({ server: `./${outputDir}`, open: false })
   gulp.watch('assets/css/**/*', styles)
   gulp.watch('assets/js/**/*', devScripts)
-  // gulp.watch('assets/img/**/*', images)
+  gulp.watch('assets/img/**/*', images)
   gulp.watch('assets/fonts/**/*', fonts)
   gulp.watch('site/**/*', generate)
 }
@@ -119,8 +119,8 @@ function watch() {
 // exports.watch = watch
 // exports.generate = generate
 
-const assets_dev = gulp.parallel(styles, fonts, devScripts)
-const assets_prod = gulp.parallel(styles, fonts, prodScripts)
+const assets_dev = gulp.parallel(styles, images, fonts, devScripts)
+const assets_prod = gulp.parallel(styles, images, fonts, prodScripts)
 
 const build = gulp.series(clean, generate, assets_prod)
 
