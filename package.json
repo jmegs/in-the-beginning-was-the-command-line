@@ -1,13 +1,12 @@
 {
-  "name": "static-starter",
+  "name": "in-the-beginning-was-the-command-line",
   "version": "1.0.0",
-  "description": "A static site starter with hugo and gulp",
+  "description": "A modern typesetting of Neal Stephenson's classic essay",
   "author": "jmegs",
   "license": "MIT",
   "scripts": {
     "start": "gulp develop",
-    "build": "gulp build",
-    "new-git-repo": "rm -rf .git && git init"
+    "build": "gulp build"
   },
   "dependencies": {
     "intersection-observer": "latest",
