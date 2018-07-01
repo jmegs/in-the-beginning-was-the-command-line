@@ -1,0 +1,51 @@
+@import '_fonts.css';
+
+html {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+pre,
+code {
+  background: black;
+  color: white;
+  width: 100%;
+  display: inline-block;
+}
+
+code {
+  padding: 0.707rem 1rem;
+}
+
+pre {
+  padding: 1rem;
+  white-space: pre-wrap;
+  font-size: 0.707rem;
+}
+
+body {
+  margin: 5vw;
+  color: #0d0d0d;
+  font-family: 'Source Serif Pro';
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: 'Syne';
+}
+
+h1 {
+  font-size: 2.827rem;
+}
+
+h2 {
+  font-size: 1.414rem;
+}

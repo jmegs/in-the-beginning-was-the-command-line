@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Syne';
+  src: url('/fonts/Syne-Extra.woff2') format('woff2'),
+    url('/fonts/Syne-Extra.woff') format('woff');
+}

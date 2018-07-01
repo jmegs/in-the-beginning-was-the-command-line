@@ -1,0 +1,29 @@
+{
+  "name": "static-starter",
+  "version": "1.0.0",
+  "description": "A static site starter with hugo and gulp",
+  "author": "jmegs",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp develop",
+    "build": "gulp build",
+    "new-git-repo": "rm -rf .git && git init"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "hugo-bin": "^0.27.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "webpack": "^4.8.3",
+    "webpack-stream": "^4.0.3"
+  }
+}
