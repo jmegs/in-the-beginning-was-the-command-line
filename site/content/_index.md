@@ -389,7 +389,7 @@ So we are now asking the GUI to do a lot more than serve as a glorified typewrit
 
 Obviously you cannot sell a complicated technological system to people without some sort of interface that enables them to use it. The internal combustion engine was a technological marvel in its day, but useless as a consumer good until a clutch, transmission, steering wheel and throttle were connected to it. That odd collection of gizmos, which survives to this day in every car on the road, made up what we would today call a user interface. But if cars had been invented after Macintoshes, carmakers would not have bothered to gin up all of these arcane devices. We would have a computer screen instead of a dashboard, and a mouse (or at best a joystick) instead of a steering wheel, and we'd shift gears by pulling down a menu:
 
-## PARK --- REVERSE --- NEUTRAL ---- 3 2 1 --- Help...
+## PARK --- REVERSE --- NEUTRAL --- 3 2 1 --- Help...
 
 A few lines of computer code can thus be made to substitute for any imaginable mechanical interface. The problem is that in many cases the substitute is a poor one. Driving a car through a GUI would be a miserable experience. Even if the GUI were perfectly bug-free, it would be incredibly dangerous, because menus and buttons simply can't be as responsive as direct mechanical controls. My friend's dad, the gentleman who was restoring the MGB, never would have bothered with it if it had been equipped with a GUI. It wouldn't have been any fun.
 

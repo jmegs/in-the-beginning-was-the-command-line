@@ -10,6 +10,10 @@
     "new-git-repo": "rm -rf .git && git init"
   },
   "dependencies": {
+    "intersection-observer": "latest",
+    "scrollprogress": "^3.0.2"
+  },
+  "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
@@ -17,7 +21,6 @@
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",
     "hugo-bin": "^0.27.1",
