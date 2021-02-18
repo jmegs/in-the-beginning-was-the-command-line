@@ -1,5 +1,6 @@
 # Dirs
 dist/
+public/
 
 # Dependency directories
 node_modules/

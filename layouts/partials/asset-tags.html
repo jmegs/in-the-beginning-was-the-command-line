@@ -1,0 +1,5 @@
+{{ $styles := resources.Get "css/main.scss" | toCSS | minify }}
+{{ $scripts := resources.Get "js/main.js" | js.Build | minify }}
+
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+<script type="module" src="{{ $scripts.RelPermalink}}"></script>

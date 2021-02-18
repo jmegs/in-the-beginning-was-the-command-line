@@ -1,32 +1,11 @@
 {
   "name": "in-the-beginning-was-the-command-line",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A modern typesetting of Neal Stephenson's classic essay",
   "author": "jmegs",
   "license": "MIT",
-  "scripts": {
-    "start": "gulp develop",
-    "build": "gulp build"
-  },
   "dependencies": {
     "intersection-observer": "latest",
     "scrollprogress": "^3.0.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.26.3",
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "latest",
-    "gulp-plumber": "^1.2.0",
-    "gulp-postcss": "^7.0.1",
-    "hugo-bin": "^0.41.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0",
-    "webpack": "^4.8.3",
-    "webpack-stream": "^4.0.3"
   }
 }
