@@ -1,4 +1,4 @@
-@import '_fonts.css';
+@import 'fonts';
 
 html {
   box-sizing: border-box;
@@ -152,18 +152,18 @@ progress {
   top: 0;
 
   width: 100%;
-  height: 0.354rem;
+  height: 0.5rem;
 
   appearance: none;
   border: none;
 
-  background-color: transparent;
+  background-color: white;
 
   color: dodgerblue;
 }
 
 progress::-webkit-progress-bar {
-  background-color: transparent;
+  background-color: white;
 }
 
 progress::-webkit-progress-value {
